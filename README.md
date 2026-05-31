@@ -38,7 +38,27 @@ Jika ingin menjalankan *project* ini di komputer lokal (*localhost*):
 ```bash
 git clone [https://github.com/refcede/LibrarySoftware2.0-LaravelProject.git](https://github.com/refcede/LibrarySoftware2.0-LaravelProject.git)
 cd LibrarySoftware2.0-LaravelProject
-
+```
+### 2. Instal Dependensi
+```
+Pastikan kamu sudah menginstal PHP, Composer, dan Node.js di komputermu.
+```
+```bash
+composer install
+npm install
+```
+### 3. Konfigurasi Environment Salin file .env.example menjadi .env lalu hasilkan key aplikasi.
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+### 4. Jalankan Migrasi Database
+```bash
+php artisan migrate
+```
+### 5. Jalankan Server Lokal
+```bash
+php artisan serve
 ```
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
