@@ -39,10 +39,7 @@ Jika ingin menjalankan *project* ini di komputer lokal (*localhost*):
 git clone [https://github.com/refcede/LibrarySoftware2.0-LaravelProject.git](https://github.com/refcede/LibrarySoftware2.0-LaravelProject.git)
 cd LibrarySoftware2.0-LaravelProject
 ```
-### 2. Instal Dependensi
-```
-Pastikan kamu sudah menginstal PHP, Composer, dan Node.js di komputermu.
-```
+### 2. Instal DependensiPastikan kamu sudah menginstal PHP, Composer, dan Node.js di komputermu.
 ```bash
 composer install
 npm install
