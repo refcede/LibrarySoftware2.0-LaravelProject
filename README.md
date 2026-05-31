@@ -1,3 +1,45 @@
+# 🚀 SoftLibrary 2.0 (Web Based Application)
+
+**SoftLibrary** (sebelumnya Cibay Software) adalah portal arsip digital terpusat yang dirancang untuk mempermudah mahasiswa mendapatkan perangkat lunak pemrograman, instalasi *environment*, dan modul materi perkuliahan. 
+
+Pada versi 2.0 ini, sistem telah di-*upgrade* secara menyeluruh menjadi aplikasi web dinamis berbasis **Laravel**. Peningkatan ini memungkinkan pengelolaan data *software* yang lebih terstruktur melalui *database*, pencarian yang lebih cepat, dan pembaruan tautan yang lebih efisien tanpa harus mengubah kode sumber (*source code*) secara manual.
+
+🌐 **Live Website:** [softlibrary.great-site.net](https://softlibrary.great-site.net/)
+
+## ✨ Fitur Unggulan
+
+Peralihan ke kerangka kerja Laravel membawa berbagai fitur baru yang membuat portal ini lebih interaktif:
+* **Dynamic Data Management:** Semua tautan unduhan *software* dan modul kini dikelola melalui *database* (MySQL), sehingga daftar aplikasi selalu *up-to-date*.
+* **Smart Categorization:** Perangkat lunak dikelompokkan secara logis (misalnya: *Java Environment, Web Development Tools, Database Management, Academic Tools*) agar mudah ditemukan.
+* **Direct & Clean Links:** Tetap mempertahankan komitmen utama: menyediakan tautan unduhan langsung (Google Drive/MediaFire) tanpa *link shortener* yang dipenuhi iklan.
+* **Responsive UI:** Antarmuka yang rapi dan dapat diakses dengan nyaman baik melalui laptop maupun perangkat seluler.
+* **Animasi Pop up:** Memberikan animasi pop up ketika download, atau melaporkan link mati agar website terlihat interaktif
+
+## 📚 Kategori Arsip Tersedia
+
+1.  **Development Environments:** JDK, XAMPP, MySQL Server.
+2.  **IDE & Code Editors:** Apache NetBeans, VS Code, Dev C++, Python.
+3.  **Academic Specific Tools:** Cisco Packet Tracer, SPSS, Visual Paradigm.
+4.  **Refreshment:** *Game* ringan untuk hiburan pelepas penat.
+
+## 🛠️ Tech Stack & Architecture
+
+Proyek ini dibangun menggunakan arsitektur MVC (*Model-View-Controller*):
+* **Backend Framework:** Laravel 
+* **Database:** MySQL
+* **Frontend:** HTML5, CSS3, Blade Templating Engine
+* **Hosting:** InfinityFree / Great-Site (Web Server & Database)
+
+## 💻 Panduan Instalasi Lokal (Untuk Developer)
+
+Jika ingin menjalankan *project* ini di komputer lokal (*localhost*):
+
+### 1. Clone Repositori
+```bash
+git clone [https://github.com/refcede/LibrarySoftware2.0-LaravelProject.git](https://github.com/refcede/LibrarySoftware2.0-LaravelProject.git)
+cd LibrarySoftware2.0-LaravelProject
+
+```
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
